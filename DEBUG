@@ -1,0 +1,7 @@
+{"level":"INFO","timestamp":"2019-06-29 15:41:39.564","file":"maomitown.com/main.go:47","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-06-29 15:41:39.565","file":"maomitown.com/main.go:44","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-06-29 15:43:15.018","file":"config/config.go:63","msg":"Config file changed: /Users/zhenhaoxu/Code/GOPATH/src/maomitown.com/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-06-29 15:43:23.949","file":"config/config.go:63","msg":"Config file changed: /Users/zhenhaoxu/Code/GOPATH/src/maomitown.com/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-06-29 15:43:26.282","file":"config/config.go:63","msg":"Config file changed: /Users/zhenhaoxu/Code/GOPATH/src/maomitown.com/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-06-29 15:43:34.048","file":"config/config.go:63","msg":"Config file changed: /Users/zhenhaoxu/Code/GOPATH/src/maomitown.com/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-06-29 15:43:36.454","file":"config/config.go:63","msg":"Config file changed: /Users/zhenhaoxu/Code/GOPATH/src/maomitown.com/conf/config.yaml"}

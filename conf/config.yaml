@@ -1,0 +1,14 @@
+runmode: test              # 开发模式，debug,release,test
+addr: :8080                  # HTTP绑定端口
+name: MMTServer             # 服务器名
+url: http://127.0.0.1:8080  # 服务器的IP:port
+max_ping_count: 10          # 自检函数的尝试次数 
+log:
+  writers: file,stdout      # file会将日志记录到指定的日志文件中
+  logger_level: DEBUG
+  logger_file: log/mmtserver.log
+  log_format_text: false    # 日志格式,true为plaintext，false为json
+  rollingPolicy: size       # 转存依据,可选的有daily和size.
+  log_rotate_date: 1        # 转存时间
+  log_rotate_size: 1        # 转存大小
+  log_backup_count: 7       # 指定备份文件的最大个数
