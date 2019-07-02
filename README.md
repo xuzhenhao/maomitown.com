@@ -7,3 +7,5 @@
 [Viper:配置解决方案](https://github.com/spf13/viper)
 
 [log:日志库](https://github.com/lexkong/log)
+
+[GORM:ORM](https://github.com/jinzhu/gorm)

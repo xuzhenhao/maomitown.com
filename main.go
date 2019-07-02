@@ -11,6 +11,7 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 	"maomitown.com/config"
+	"maomitown.com/model"
 	"maomitown.com/router"
 )
 
@@ -25,6 +26,11 @@ func main() {
 	if err := config.Init(*cfg); err != nil {
 		panic(err)
 	}
+
+	// 初始化数据库
+	model.DB.Init()
+	defer model.DB.Close()
+
 	gin.SetMode(viper.GetString("runmode"))
 
 	//创建web服务器

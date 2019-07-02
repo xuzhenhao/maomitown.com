@@ -12,3 +12,13 @@ log:
   log_rotate_date: 1        # 转存时间
   log_rotate_size: 1        # 转存大小
   log_backup_count: 7       # 指定备份文件的最大个数
+db:
+  name: db_apiserver
+  addr: 192.168.1.140:3306
+  username: root
+  password: 123456
+docker_db:
+  name: db_apiserver
+  addr: 192.168.1.140:3306
+  username: root
+  password: 123456
