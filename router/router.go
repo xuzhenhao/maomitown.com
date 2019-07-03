@@ -5,6 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"maomitown.com/handler/sd"
+	"maomitown.com/handler/user"
 	"maomitown.com/router/middleware"
 )
 
@@ -30,5 +31,11 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 		svcd.GET("/cpu", sd.CPUCheck)
 		svcd.GET("/ram", sd.RAMCheck)
 	}
+
+	u := g.Group("/v1/user")
+	{
+		u.POST("", user.Create)
+	}
+
 	return g
 }

@@ -6,6 +6,8 @@ import (
 	"github.com/spf13/viper"
 
 	"github.com/jinzhu/gorm"
+	// MYSQL driver.
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/lexkong/log"
 )
 

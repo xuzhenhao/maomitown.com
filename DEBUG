@@ -5,3 +5,13 @@
 {"level":"INFO","timestamp":"2019-06-29 15:43:26.282","file":"config/config.go:63","msg":"Config file changed: /Users/zhenhaoxu/Code/GOPATH/src/maomitown.com/conf/config.yaml"}
 {"level":"INFO","timestamp":"2019-06-29 15:43:34.048","file":"config/config.go:63","msg":"Config file changed: /Users/zhenhaoxu/Code/GOPATH/src/maomitown.com/conf/config.yaml"}
 {"level":"INFO","timestamp":"2019-06-29 15:43:36.454","file":"config/config.go:63","msg":"Config file changed: /Users/zhenhaoxu/Code/GOPATH/src/maomitown.com/conf/config.yaml"}
+{"level":"ERROR","timestamp":"2019-07-03 03:25:22.515","file":"model/init.go:33","msg":"数据库连接失败，数据库名:%!(EXTRA string=db_apiserver)","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"ERROR","timestamp":"2019-07-03 03:31:53.078","file":"model/init.go:33","msg":"数据库连接失败，数据库名:%!(EXTRA string=db_apiserver)","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"INFO","timestamp":"2019-07-03 03:35:12.143","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-03 03:35:12.145","file":"maomitown.com/main.go:64","msg":"Get http://127.0.0.1:8080/sd/health: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","timestamp":"2019-07-03 03:35:13.153","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"DEBUG","timestamp":"2019-07-03 03:45:12.704","file":"user/create.go:25","msg":"将要创建的用户名:admin 密码:"}
+{"level":"DEBUG","timestamp":"2019-07-03 03:49:45.607","file":"user/create.go:25","msg":"将要创建的用户名: 密码:admin"}
+{"level":"ERROR","timestamp":"2019-07-03 03:49:45.608","file":"user/create.go:28","msg":"格式错误","data":{"error":"Err -code: 20102, message: 未找到该用户,error:用户名不能为空"}}
+{"level":"DEBUG","timestamp":"2019-07-03 03:49:45.608","file":"user/create.go:32","msg":"用户没找到错误"}
+{"level":"DEBUG","timestamp":"2019-07-03 03:51:51.024","file":"user/create.go:25","msg":"将要创建的用户名:admin 密码:admin"}
