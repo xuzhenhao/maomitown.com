@@ -15,3 +15,16 @@
 {"level":"ERROR","timestamp":"2019-07-03 03:49:45.608","file":"user/create.go:28","msg":"格式错误","data":{"error":"Err -code: 20102, message: 未找到该用户,error:用户名不能为空"}}
 {"level":"DEBUG","timestamp":"2019-07-03 03:49:45.608","file":"user/create.go:32","msg":"用户没找到错误"}
 {"level":"DEBUG","timestamp":"2019-07-03 03:51:51.024","file":"user/create.go:25","msg":"将要创建的用户名:admin 密码:admin"}
+{"level":"ERROR","timestamp":"2019-07-03 11:13:28.043","file":"model/init.go:35","msg":"数据库连接失败，数据库名:%!(EXTRA string=db_apiserver)","data":{"error":"dial tcp 192.168.1.140:3306: connect: connection refused"}}
+{"level":"INFO","timestamp":"2019-07-03 11:14:15.098","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-03 11:14:15.101","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-03 11:15:06.481","file":"user/create.go:27","msg":"URL 中的用户名为: admin"}
+{"level":"INFO","timestamp":"2019-07-03 11:15:06.482","file":"user/create.go:31","msg":"URL 中query参数desc的值为:test"}
+{"level":"INFO","timestamp":"2019-07-03 11:15:06.485","file":"user/create.go:35","msg":"Header Contenttype: application/json"}
+{"level":"DEBUG","timestamp":"2019-07-03 11:15:06.488","file":"user/create.go:37","msg":"将要创建的用户名:admin 密码:admin"}
+{"level":"INFO","timestamp":"2019-07-04 01:35:49.264","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-04 01:35:49.268","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-04 01:36:23.931","file":"user/create.go:27","msg":"URL 中的用户名为: admin"}
+{"level":"INFO","timestamp":"2019-07-04 01:36:23.932","file":"user/create.go:31","msg":"URL 中query参数desc的值为:test"}
+{"level":"INFO","timestamp":"2019-07-04 01:36:23.933","file":"user/create.go:35","msg":"Header Contenttype: application/json"}
+{"level":"DEBUG","timestamp":"2019-07-04 01:36:23.934","file":"user/create.go:37","msg":"将要创建的用户名:admin 密码:admin"}

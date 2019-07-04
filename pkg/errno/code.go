@@ -11,11 +11,11 @@ package errno
 */
 
 var (
-	//通用错误
+	//通用错误，服务代码 00
 	OK                  = &Errno{Code: 0, Message: "OK"}
 	InternalServerError = &Errno{Code: 10001, Message: "服务器内部错误"}
 	ParamBindError      = &Errno{Code: 10002, Message: "绑定请求的参数错误"}
 
-	//用户相关错误
+	//用户模块,服务代码 01
 	UserNotFoundError = &Errno{Code: 20102, Message: "未找到用户"}
 )
