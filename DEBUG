@@ -64,3 +64,6 @@
 {"level":"INFO","timestamp":"2019-07-08 01:23:48.373","file":"maomitown.com/main.go:64","msg":"Get http://127.0.0.1:8080/sd/health: dial tcp 127.0.0.1:8080: connect: connection refused"}
 {"level":"INFO","timestamp":"2019-07-08 01:23:49.377","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
 {"level":"INFO","timestamp":"2019-07-08 01:24:04.021","file":"userservice/service.go:29","msg":"数据库查询到的用户列表 [0xc420127620 0xc420127740]"}
+{"level":"INFO","timestamp":"2019-07-08 01:55:59.832","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-08 01:55:59.834","file":"maomitown.com/main.go:64","msg":"Get http://127.0.0.1:8080/sd/health: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","timestamp":"2019-07-08 01:56:00.838","file":"maomitown.com/main.go:50","msg":"路由部署成功"}

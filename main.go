@@ -13,6 +13,7 @@ import (
 	"maomitown.com/config"
 	"maomitown.com/model"
 	"maomitown.com/router"
+	"maomitown.com/router/middleware"
 )
 
 var (
@@ -37,10 +38,9 @@ func main() {
 	g := gin.New()
 
 	//初始化路由配置
-	middlewares := []gin.HandlerFunc{}
 	router.Load(
 		g,
-		middlewares...,
+		middleware.RequestID(),
 	)
 	//另起一个协程检查服务器是否能正常访问
 	go func() {

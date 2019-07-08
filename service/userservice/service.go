@@ -25,7 +25,6 @@ func ListUser(offset, limit int) ([]*UserInfo, uint64, error) {
 	infos := make([]*UserInfo, 0)
 	users, count, err := model.ListUser(offset, limit)
 
-	// log.Infof("数据库查询到的用户列表 %v", users)
 	if err != nil {
 		return nil, count, err
 	}
@@ -56,7 +55,6 @@ func ListUser(offset, limit int) ([]*UserInfo, uint64, error) {
 				UserName: u.Username,
 				SayHello: fmt.Sprintf("hello,%s", u.Username),
 			}
-			// log.Infof("用户 %v", userList.IDMap[u.ID])
 		}(u)
 	}
 
@@ -67,7 +65,6 @@ func ListUser(offset, limit int) ([]*UserInfo, uint64, error) {
 		infos = append(infos, userList.IDMap[id])
 	}
 
-	// log.Infof("返回结果 %v", infos)
 	return infos, count, nil
 
 }
