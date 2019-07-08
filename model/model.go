@@ -9,3 +9,8 @@ type BaseModel struct {
 	UpdatedAt time.Time  `gorm:"column:updatedAt" json:"-"`
 	DeletedAt *time.Time `gorm:"column:deletedAt" sql:"index" json:"-"`
 }
+
+// Token 鉴权token
+type Token struct {
+	Token string `json:"token"`
+}

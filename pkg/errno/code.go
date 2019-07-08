@@ -18,6 +18,7 @@ var (
 
 	ValidationError = &Errno{Code: 20001, Message: "参数校验失败"}
 	DatabaseError   = &Errno{Code: 20002, Message: "数据库出错"}
+	TokenError      = &Errno{Code: 20003, Message: "Token签名错误"}
 
 	//用户模块,服务代码 01
 	EncryptPwdError   = &Errno{Code: 20101, Message: "加密密码出错"}

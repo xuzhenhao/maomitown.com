@@ -67,3 +67,12 @@
 {"level":"INFO","timestamp":"2019-07-08 01:55:59.832","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
 {"level":"INFO","timestamp":"2019-07-08 01:55:59.834","file":"maomitown.com/main.go:64","msg":"Get http://127.0.0.1:8080/sd/health: dial tcp 127.0.0.1:8080: connect: connection refused"}
 {"level":"INFO","timestamp":"2019-07-08 01:56:00.838","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-08 03:15:46.522","file":"config/config.go:63","msg":"Config file changed: /root/go/src/maomitown.com/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-07-08 03:38:14.767","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-08 03:38:14.769","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-08 03:41:13.981","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-08 03:41:13.984","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-08 08:06:10.815","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-08 08:06:10.820","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-08 08:11:09.907","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-08 08:11:09.919","file":"maomitown.com/main.go:50","msg":"路由部署成功"}

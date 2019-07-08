@@ -37,6 +37,14 @@ func (u *UserModel) Update() error {
 	return DB.Self.Save(u).Error
 }
 
+// GetUser 根据用户名查询获取用户信息
+func GetUser(username string) (*UserModel, error) {
+	u := &UserModel{}
+	d := DB.Self.Where("username = ?", username).First(&u)
+
+	return u, d.Error
+}
+
 // ListUser 查询用户列表
 func ListUser(offset, limit int) ([]*UserModel, uint64, error) {
 	if limit == 0 {
