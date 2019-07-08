@@ -28,3 +28,39 @@
 {"level":"INFO","timestamp":"2019-07-04 01:36:23.932","file":"user/create.go:31","msg":"URL 中query参数desc的值为:test"}
 {"level":"INFO","timestamp":"2019-07-04 01:36:23.933","file":"user/create.go:35","msg":"Header Contenttype: application/json"}
 {"level":"DEBUG","timestamp":"2019-07-04 01:36:23.934","file":"user/create.go:37","msg":"将要创建的用户名:admin 密码:admin"}
+{"level":"INFO","timestamp":"2019-07-04 06:57:07.040","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-04 06:57:07.055","file":"maomitown.com/main.go:64","msg":"Get http://127.0.0.1:8080/sd/health: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","timestamp":"2019-07-04 06:57:08.058","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"DEBUG","timestamp":"2019-07-04 06:59:57.977","file":"user/create.go:21","msg":"将要创建的用户名:cloud 密码:123456"}
+{"level":"INFO","timestamp":"2019-07-04 07:30:26.356","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-04 07:30:26.364","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-04 07:43:08.597","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-04 07:43:08.603","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-04 11:07:36.706","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-04 11:07:36.707","file":"maomitown.com/main.go:64","msg":"Get http://127.0.0.1:8080/sd/health: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","timestamp":"2019-07-04 11:07:37.716","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-04 11:09:15.940","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-04 11:09:15.943","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-04 11:18:03.572","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-04 11:18:03.581","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-04 11:18:08.037","file":"userservice/service.go:29","msg":"数据库查询到的用户列表 [0xc4202963c0 0xc4202964e0]"}
+{"level":"INFO","timestamp":"2019-07-04 11:18:08.038","file":"userservice/service.go:73","msg":"返回结果 [\u003cnil\u003e \u003cnil\u003e]"}
+{"level":"INFO","timestamp":"2019-07-04 11:18:08.038","file":"userservice/service.go:60","msg":"用户 \u0026{3 modify hello,modify}"}
+{"level":"INFO","timestamp":"2019-07-04 11:18:08.041","file":"userservice/service.go:60","msg":"用户 \u0026{0 admin hello,admin}"}
+{"level":"INFO","timestamp":"2019-07-04 11:21:11.188","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-04 11:21:11.188","file":"maomitown.com/main.go:64","msg":"Get http://127.0.0.1:8080/sd/health: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","timestamp":"2019-07-04 11:21:12.160","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-04 11:21:16.232","file":"userservice/service.go:29","msg":"数据库查询到的用户列表 [0xc4200703c0 0xc4200704e0]"}
+{"level":"INFO","timestamp":"2019-07-04 11:21:16.233","file":"userservice/service.go:73","msg":"返回结果 [\u003cnil\u003e \u003cnil\u003e]"}
+{"level":"INFO","timestamp":"2019-07-04 11:21:16.234","file":"userservice/service.go:60","msg":"用户 \u0026{3 modify hello,modify}"}
+{"level":"INFO","timestamp":"2019-07-04 11:21:16.236","file":"userservice/service.go:60","msg":"用户 \u0026{0 admin hello,admin}"}
+{"level":"INFO","timestamp":"2019-07-05 09:40:23.417","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-05 09:40:23.420","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-05 09:40:32.892","file":"userservice/service.go:29","msg":"数据库查询到的用户列表 [0xc420312ba0 0xc420312e40]"}
+{"level":"INFO","timestamp":"2019-07-05 09:40:32.893","file":"userservice/service.go:60","msg":"用户 \u0026{0 admin hello,admin}"}
+{"level":"INFO","timestamp":"2019-07-05 09:40:32.893","file":"userservice/service.go:60","msg":"用户 \u0026{3 modify hello,modify}"}
+{"level":"INFO","timestamp":"2019-07-05 09:40:32.894","file":"userservice/service.go:71","msg":"返回结果 [0xc420280210 0xc4202800f0]"}
+{"level":"INFO","timestamp":"2019-07-08 01:23:48.371","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-08 01:23:48.373","file":"maomitown.com/main.go:64","msg":"Get http://127.0.0.1:8080/sd/health: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","timestamp":"2019-07-08 01:23:49.377","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-08 01:24:04.021","file":"userservice/service.go:29","msg":"数据库查询到的用户列表 [0xc420127620 0xc420127740]"}

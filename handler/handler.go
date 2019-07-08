@@ -24,3 +24,11 @@ func SendResponse(c *gin.Context, err error, data interface{}) {
 		Data:    data,
 	})
 }
+
+/*
+test:
+ curl -XPOST -H "Content-Type:application/json" http://127.0.0.1:8080/v1/user -d'{"username":"cloud","password":"123456"}'
+ curl -XDELETE -H "Content-Type:application/json" http://127.0.0.1:8080/v1/user/2
+ curl -XPUT -H "Content-Type:application/json" http://127.0.0.1:8080/v1/user/2 -d'{"username":"cloudmodify","password":"123456"}'
+ curl -XGET -H "Content-Type:application/json" http://127.0.0.1:8080/v1/user/list
+*/

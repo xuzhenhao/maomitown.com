@@ -16,6 +16,12 @@ var (
 	InternalServerError = &Errno{Code: 10001, Message: "服务器内部错误"}
 	ParamBindError      = &Errno{Code: 10002, Message: "绑定请求的参数错误"}
 
+	ValidationError = &Errno{Code: 20001, Message: "参数校验失败"}
+	DatabaseError   = &Errno{Code: 20002, Message: "数据库出错"}
+
 	//用户模块,服务代码 01
+	EncryptPwdError   = &Errno{Code: 20101, Message: "加密密码出错"}
 	UserNotFoundError = &Errno{Code: 20102, Message: "未找到用户"}
+	TokenInvalidError = &Errno{Code: 20103, Message: "无效Token"}
+	PwdIncorrectError = &Errno{Code: 20104, Message: "密码错误"}
 )
