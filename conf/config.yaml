@@ -23,3 +23,6 @@ docker_db:
   addr: 192.168.1.140:3306
   username: root
   password: 123456
+tls:
+  cert: conf/maomitown.crt
+  key: conf/maomitown.key

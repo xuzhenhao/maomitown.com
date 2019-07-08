@@ -76,3 +76,6 @@
 {"level":"INFO","timestamp":"2019-07-08 08:06:10.820","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
 {"level":"INFO","timestamp":"2019-07-08 08:11:09.907","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
 {"level":"INFO","timestamp":"2019-07-08 08:11:09.919","file":"maomitown.com/main.go:50","msg":"路由部署成功"}
+{"level":"INFO","timestamp":"2019-07-08 08:34:43.087","file":"config/config.go:63","msg":"Config file changed: /root/go/src/maomitown.com/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-07-08 08:36:51.276","file":"maomitown.com/main.go:53","msg":"开始监听位于 :8080 端口的http请求"}
+{"level":"INFO","timestamp":"2019-07-08 08:36:51.283","file":"maomitown.com/main.go:50","msg":"路由部署成功"}

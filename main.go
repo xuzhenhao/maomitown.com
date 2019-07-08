@@ -52,7 +52,7 @@ func main() {
 
 	log.Infof("开始监听位于 %s 端口的http请求", viper.GetString("addr"))
 	http.ListenAndServe(viper.GetString("addr"), g)
-
+	// http.ListenAndServeTLS(viper.GetString("addr"), viper.GetString("tls.cert"), viper.GetString("tls.key"), g)
 }
 
 func pingServer() error {
